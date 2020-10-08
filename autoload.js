@@ -8,7 +8,7 @@ try {
     live2d_settings['modelId'] = 1;                  // 默认模型 ID
     live2d_settings['modelTexturesId'] = 87;          // 默认材质 ID
     live2d_settings['modelStorage'] = false;         // 不储存模型 ID
-    live2d_settings['homePageUrl'] = 'http://baidu.com';        // 主页地址，可选 'auto'(自动), '{URL 网址}'
+    live2d_settings['homePageUrl'] = 'https://bypanghu.github.io/blog/';        // 主页地址，可选 'auto'(自动), '{URL 网址}'
     /* 在 initModel 前添加 */
     initModel('assets/waifu-tips.json');
 } catch(err) { console.log('[Error] JQuery is not defined.') }
